@@ -1,0 +1,12 @@
+{
+  "name": "dtm",
+  "version": "1.0.0",
+  "description": "Data Type Methods: A Collection of methods to operate against data types in JavaScript.",
+  "main": "./src/main.js",
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": [],
+  "author": "confused-Techie",
+  "license": "MIT"
+}
