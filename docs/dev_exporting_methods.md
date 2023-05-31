@@ -26,6 +26,6 @@ function isDummy() {
 }
 
 module.exports = {
-  isDummy
+  isDummy,
 };
 ```

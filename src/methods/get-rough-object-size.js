@@ -2,7 +2,7 @@
  * @function getRoughObjectSize
  * @desc Determines the rough size of the object in memory, in bytes.
  * @param {*} value - The value to inspect.
- * @returns {integer} Returns the integer value of the object in bytes. 
+ * @returns {integer} Returns the integer value of the object in bytes.
  */
 exports.getRoughObjectSize = (value) => {
   let objectList = [];

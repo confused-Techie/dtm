@@ -2,10 +2,10 @@ When creating new methods there's a few guidelines that should be followed to en
 
 ## Overview
 
-* Each method should only every use `camelCase`
-* The filename of the method should be `kebab-case`
-* One method per file
-* One test file per method
+- Each method should only every use `camelCase`
+- The filename of the method should be `kebab-case`
+- One method per file
+- One test file per method
 
 ## Naming
 
@@ -13,6 +13,6 @@ In general the Microsoft PowerShell Verb list should be followed for what each m
 
 But there are exceptions, but as for the ongoing list:
 
-* `is`: Implies that, without modifying the object, it's state, or an aspect of it's state will be returned.
-* `get`: Implies that, without modifying the object, an aspect of it's state or data will be utilized to derive meaning from.
-* 
+- `is`: Implies that, without modifying the object, it's state, or an aspect of it's state will be returned.
+- `get`: Implies that, without modifying the object, an aspect of it's state or data will be utilized to derive meaning from.
+-

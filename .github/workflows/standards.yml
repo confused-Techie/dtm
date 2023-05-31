@@ -1,0 +1,42 @@
+name: Standards
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Tests"]
+    types:
+      - completed
+    # Used to prevent simultaneous runs, outdating local git cache
+
+env:
+  NODE_VER: 18.x
+
+jobs:
+  standards:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout the latest code
+        uses: actions/checkout@v3
+
+      - name: Setup NodeJS - $NODE_VER
+        uses: actions/setup-node@v3
+        with:
+          node-version: $NODE_VER
+          cache: "npm"
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Lint Codebase
+        run: npm run lint
+
+      - name: Generate Docs
+        run: npm run docs
+
+      - name: Commit All Changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: GH Action Standards

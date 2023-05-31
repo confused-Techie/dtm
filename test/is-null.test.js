@@ -4,7 +4,6 @@ const assert = require("node:assert");
 const dtm = require("../src/main.js");
 
 describe("isNull() Tests", () => {
-
   it("is exported as a function", () => {
     assert.strictEqual(typeof dtm.isNull, "function");
   });
@@ -21,5 +20,4 @@ describe("isNull() Tests", () => {
     assert.strictEqual(dtm.isNull("hello world"), false);
     assert.strictEqual(dtm.isNull(false), false);
   });
-
 });
