@@ -9,6 +9,12 @@ The goal of **Data Type Methods (DTM)** is to make common interactions with data
 
 If you'd like to add new methods, feel free to make a PR after reviewing the [docs](./docs/creating_new_methods.md)!
 
+## Installation
+
+```bash
+> npm install @confused-techie/dtm
+```
+
 ## API
 
 <!--DO NOT TOUCH! Automatically handled by ./scripts/docs/generate.js -->
