@@ -7,17 +7,14 @@ The goal of **Data Type Methods (DTM)** is to make common interactions with data
 ## API
 
 <!--DO NOT TOUCH! Automatically handled by ./scripts/docs/generate.js -->
-
 ### module: `dtm`
-
 Data Type Methods: A Collection of methods to operate against data types in JavaScript.
-
 ```javascript
 const dtm = require("dtm");
 ```
 
-### function: `getDedupedArray`
 
+### function: `getDedupedArray`
 Deduplicates the provided array, returning a new array without duplicates.
 Works only on arrays of Strings, Numbers, Booleans.
 
@@ -29,8 +26,8 @@ Returns:
 
 - `<*>`: Returns an array of values, deduplicated.
 
-### function: `getRoughObjectSize`
 
+### function: `getRoughObjectSize`
 Determines the rough size of the object in memory, in bytes.
 
 Parameters:
@@ -41,8 +38,8 @@ Returns:
 
 - `<integer>`: Returns the integer value of the object in bytes.
 
-### function: `isArrayPopulated`
 
+### function: `isArrayPopulated`
 Determines not only if the input value is an array, but also if
 contains any content.
 
@@ -53,11 +50,11 @@ Parameters:
 Returns:
 
 - `<boolean>`: True if the provided input is an array, and has a length
-  longer than 0. False if either the input value is not an array, or has a length
-  of 0.
+longer than 0. False if either the input value is not an array, or has a length
+of 0.
+
 
 ### function: `isNull`
-
 Determines if the input value is `null`.
 
 Parameters:
@@ -67,4 +64,4 @@ Parameters:
 Returns:
 
 - `<boolean>`: Returns true if the value is null, returns false if the value
-  is any other valid data type, including `undefined` or other falsy values.
+is any other valid data type, including `undefined` or other falsy values.
