@@ -14,7 +14,8 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x, 17.x, 18.x, 19.x, 20.x]
+        # 17.x Does not support the NodeJS Test Runner
+        node-version: [16.x, 18.x, 19.x, 20.x]
 
     steps:
       - name: Checkout the latest code
