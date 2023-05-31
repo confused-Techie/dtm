@@ -1,8 +1,7 @@
 const { describe, it } = require("node:test");
 const assert = require("node:assert");
 
-//const dtm = require("../src/main.js");
-const dtm = require("../src/tersed.js");
+const dtm = require("../src/main.js");
 
 describe("isNull() Tests", () => {
 

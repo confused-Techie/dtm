@@ -8,5 +8,16 @@
 exports.getDedupedArray = (value) => {
   let newArray = [];
 
-  if ()
+  if (!Array.isArray(value)) {
+    // Return an empty array if we don't receive an array
+    return [];
+  }
+
+  for (let i = 0; i < value.length; i++) {
+    if (!newArray.includes(value[i])) {
+      newArray.push(value[i]);
+    }
+  }
+
+  return newArray;
 };
