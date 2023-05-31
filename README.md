@@ -21,7 +21,7 @@ If you'd like to add new methods, feel free to make a PR after reviewing the [do
 ### module: `dtm`
 Data Type Methods: A Collection of methods to operate against data types in JavaScript.
 ```javascript
-const dtm = require("dtm");
+const dtm = require("@confused-techie/dtm");
 ```
 
 
