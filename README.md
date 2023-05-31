@@ -4,6 +4,8 @@
 
 The goal of **Data Type Methods (DTM)** is to make common interactions with data types faster and simpler. While often the methods being exposed are achievable within a few lines of code, but nothing beats having repeatable and simple access to these same functions over and over.
 
+If you'd like to add new methods, feel free to make a PR after reviewing the [docs](./docs/creating_new_methods.md)!
+
 ## API
 
 <!--DO NOT TOUCH! Automatically handled by ./scripts/docs/generate.js -->
