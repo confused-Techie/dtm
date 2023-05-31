@@ -8,7 +8,6 @@
     "docs": "node ./scripts/docs/generate.js",
     "lint": "prettier --check -u -w ."
   },
-  "keywords": [],
   "author": "confused-Techie",
   "license": "MIT",
   "prettier": {
